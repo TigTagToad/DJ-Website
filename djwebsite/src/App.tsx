@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router";
-import {Header} from "../Pages/Header"
-import {AboutPage} from "../Pages/AboutPage"
-import {MixesPage} from "../Pages/MixesPage"
-import {PressPack} from "../Pages/PressPack"
-import {ContactPage} from "../Pages/Contact"
-import {EventsPage} from "../Pages/Events"
-import {Synth} from "../Pages/Synth"
+import {Header} from "../Components/Pages/Header"
+import {AboutPage} from "../Components/Pages/AboutPage"
+import {MixesPage} from "../Components/Pages/MixesPage"
+import {PressPack} from "../Components/Pages/PressPack"
+import {ContactPage} from "../Components/Pages/Contact"
+import {EventsPage} from "../Components/Pages/Events"
+import {Synth} from "../Components/Pages/Synth"
 import './App.css'
 
 function App() {
