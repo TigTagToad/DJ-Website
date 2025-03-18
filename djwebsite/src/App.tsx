@@ -5,6 +5,7 @@ import {MixesPage} from "../Pages/MixesPage"
 import {PressPack} from "../Pages/PressPack"
 import {ContactPage} from "../Pages/Contact"
 import {EventsPage} from "../Pages/Events"
+import {Synth} from "../Pages/Synth"
 import './App.css'
 
 function App() {
@@ -17,11 +18,12 @@ function App() {
 
     </div>
     <Routes>
-      <Route path="/About" element={<AboutPage />} />
-      <Route path="/Mixes" element={<MixesPage />} />
-      <Route path="/PressPack" element={<PressPack />}/>
-      <Route path="/Contact" element={<ContactPage />}/>
-      <Route path="/Events" element={<EventsPage />}/>
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/mixes" element={<MixesPage />} />
+      <Route path="/press-pack" element={<PressPack />}/>
+      <Route path="/contact" element={<ContactPage />}/>
+      <Route path="/events" element={<EventsPage />}/>
+      <Route path="/synth" element={<Synth />}/>
     </Routes>
     </>
   )
